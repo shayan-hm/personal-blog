@@ -1,0 +1,85 @@
+.header {
+  height: 700px;
+  width: 1440px;
+  position: relative;
+  background-color: #fefefe;
+}
+.fd {
+  height: 750px;
+  width: 970px;
+  background-color: #f7f7f7;
+  border-radius: 0 0 100px 0;
+
+  display: inline-block;
+}
+.shayan {
+  font-size: 30px;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  color: #fead2a;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  right: 180px;
+  display: inline;
+  font-size: 18px;
+  margin: 10px;
+}
+li {
+  display: inline;
+  padding: 13px;
+  margin: 7px;
+}
+li:hover {
+  color: #fff;
+  background-color: #fead2a;
+  border-radius: 3px;
+}
+.me {
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  height: 250px;
+  width: 550px;
+}
+.fh {
+  font-size: 60px;
+  color: #333333;
+}
+.fs {
+  margin-right: 100px;
+  padding: 15px 25px 15px 25px;
+  border: 1px #fead2a solid;
+  color: #6f6f6f;
+  border-radius: 0 0 25px 0;
+  font-size: 20px;
+}
+.fs:hover {
+  color: #fff;
+  background-color: #fead2a;
+}
+.fp {
+  color: #6f6f6f;
+  font-size: 16px;
+  max-width: 450px;
+}
+.pic {
+  height: 514px;
+  width: 403px;
+  border-radius: 15px 15px 40px 15px;
+}
+.picd {
+  display: inline-block;
+  position: absolute;
+  height: 514px;
+  width: 403px;
+  right: 200px;
+  top: 120px;
+  background-color: #ffffff;
+  border: #ffffff solid 15px;
+  box-shadow: 5px 5px 10px 10px #e7e7e7;
+  border-radius: 15px 15px 40px 15px;
+}
