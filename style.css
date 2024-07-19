@@ -83,3 +83,22 @@ li:hover {
   box-shadow: 5px 5px 10px 10px #e7e7e7;
   border-radius: 15px 15px 40px 15px;
 }
+.sec1 {
+  display: inline-block;
+  width: 1350px;
+  height: 150px;
+  border: 1px black solid;
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+.company {
+  display: inline-block;
+  margin: 40px 70px 40px 70px;
+  padding: 10px;
+}
+.company:hover {
+  background-color: #f7f7f7;
+  border-radius: 50%;
+}
