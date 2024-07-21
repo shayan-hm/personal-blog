@@ -1,30 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto";
+}
+body {
+  background-color: #fefefe;
+}
+/*header style*/
 .header {
-  height: 700px;
-  width: 1440px;
+  width: 98vw;
   position: relative;
   background-color: #fefefe;
 }
-.fd {
+.header-color-box {
   height: 750px;
-  width: 970px;
+  width: 65vw;
   background-color: #f7f7f7;
   border-radius: 0 0 100px 0;
-
   display: inline-block;
 }
-.shayan {
+.header-name {
   font-size: 30px;
   position: absolute;
   left: 100px;
   top: 30px;
   color: #fead2a;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
 }
-a {
-  font-family: "Roboto", sans-serif;
-}
-.menu {
+.header-menu {
   position: absolute;
   top: 0;
   right: 150px;
@@ -33,17 +35,17 @@ a {
   margin: 10px;
   font-family: "Roboto", sans-serif;
 }
-li {
+.header-menu > ul > li {
   display: inline;
   padding: 13px;
   margin: 7px;
 }
-li:hover {
+.header-menu > ul > li:hover {
   color: #fff;
   background-color: #fead2a;
   border-radius: 3px;
 }
-.me {
+.header-information-box {
   display: inline-block;
   position: absolute;
   top: 200px;
@@ -51,12 +53,18 @@ li:hover {
   height: 250px;
   width: 550px;
 }
-.fh {
+.header-information-box > h1 {
   font-size: 60px;
   color: #333333;
   font-family: "Roboto", sans-serif;
 }
-.fs {
+.header-information-box > p {
+  color: #6f6f6f;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  max-width: 450px;
+}
+.header-information-box > span {
   margin-right: 100px;
   padding: 15px 25px 15px 25px;
   border: 1px #fead2a solid;
@@ -65,22 +73,11 @@ li:hover {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
-.fs:hover {
+.header-information-box > span:hover {
   color: #fff;
   background-color: #fead2a;
 }
-.fp {
-  color: #6f6f6f;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  max-width: 450px;
-}
-.pic {
-  height: 514px;
-  width: 403px;
-  border-radius: 15px 15px 40px 15px;
-}
-.picd {
+.header-picture {
   display: inline-block;
   position: absolute;
   height: 514px;
@@ -92,19 +89,12 @@ li:hover {
   box-shadow: 5px 5px 10px 10px #e7e7e7;
   border-radius: 15px 15px 40px 15px;
 }
-.sec1 {
-  display: inline-block;
-  width: 1350px;
-  height: 150px;
-  text-align: center;
+.header-picture > img {
+  height: 514px;
+  width: 403px;
+  border-radius: 15px 15px 40px 15px;
 }
-.social {
-  height: 20px;
-  width: 20px;
-  margin: 7px;
-  margin-top: 5px;
-}
-.follow {
+.header-sicial-box {
   display: inline-block;
   position: absolute;
   transform: rotate(-90deg);
@@ -112,7 +102,7 @@ li:hover {
   right: 0px;
   padding: 3px;
 }
-.sp {
+.header-sicial-box > p {
   color: #6f6f6f;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -120,53 +110,87 @@ li:hover {
   margin-right: 25px;
   vertical-align: top;
 }
+.header-sicial-box > a > img {
+  height: 20px;
+  width: 20px;
+  margin: 7px;
+  margin-top: 5px;
+}
+
+/*main style*/
 main {
   text-align: center;
+  background-color: #fefefe;
+}
+/*section 1 style*/
+.section-1 {
+  display: inline-block;
+  width: 90%;
+  height: 150px;
 }
 .company {
   display: inline-block;
-  margin: 40px 70px 40px 70px;
+  margin: 150px 50px 150px 50px;
   padding: 10px;
 }
 .company:hover {
   background-color: #f7f7f7;
   border-radius: 50%;
 }
-.box1 {
+.company > a > img {
+  height: 75px;
+  width: 75x;
+}
+/*section 2 style*/
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.cont {
+  width: 89vw;
+  margin-top: 75px;
+}
+.sec2-box {
   display: inline-block;
+  width: 300px;
   height: 300px;
-  width: 350px;
-  margin: 20px;
-  padding: 20px;
+  margin: 21px;
   position: relative;
 }
-.sec2 {
-  margin-top: 120px;
+.sec2-box-2 {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 21px;
+  position: relative;
 }
-
-.icobox {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  box-shadow: 10px 10px 5px #f2f1f1;
-  padding: 30px;
-  border-radius: 0 0 15px 0;
-}
-.ico {
-  font-size: 50px;
+.icon-box > i {
   color: #fead2a;
-}
-.boxh {
   position: absolute;
-  top: 175px;
-  text-align: left;
-  font-family: "Roboto", sans-serif;
+  top: 35px;
+  left: 35px;
+  font-size: 50px;
+}
+.sec2-box > h4 {
+  position: absolute;
+  top: 130px;
+  left: 30px;
   color: #333333;
 }
-.boxp {
+.sec2-box-2 > h1 {
   position: absolute;
-  top: 250px;
+  font-size: 40px;
   text-align: left;
-  font-family: "Roboto", sans-serif;
+  top: 70px;
+  left: 10px;
+  color: #333333;
+}
+.sec2-box > p {
+  position: absolute;
+  left: 30px;
+  top: 170px;
+  text-align: left;
   color: #6f6f6f;
 }
