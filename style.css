@@ -44,6 +44,7 @@ body {
   color: #fff;
   background-color: #fead2a;
   border-radius: 3px;
+  cursor: pointer;
 }
 .header-information-box {
   display: inline-block;
@@ -64,7 +65,7 @@ body {
   font-family: "Roboto", sans-serif;
   max-width: 450px;
 }
-.header-information-box > span {
+.header-information-box > a {
   margin-right: 100px;
   padding: 15px 25px 15px 25px;
   border: 1px #fead2a solid;
@@ -73,9 +74,10 @@ body {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
-.header-information-box > span:hover {
+.header-information-box > a:hover {
   color: #fff;
   background-color: #fead2a;
+  cursor: pointer;
 }
 .header-picture {
   display: inline-block;
@@ -136,6 +138,7 @@ main {
 .company:hover {
   background-color: #f7f7f7;
   border-radius: 50%;
+  cursor: pointer;
 }
 .company > a > img {
   height: 75px;
@@ -211,9 +214,10 @@ main {
   border-radius: 5%;
   box-shadow: 0 0 20px 0px #333333;
   margin-right: 100px;
+  transform: rotate(-5deg);
 }
 .about-me-photo-box > img {
-  border-radius: 5%;
+  border-radius: 4%;
 }
 .about-me-content-box {
   width: 450px;
@@ -240,56 +244,148 @@ main {
 .about-me-content-box > span:hover {
   color: #fff;
   background-color: #fead2a;
+  cursor: pointer;
 }
 .fs {
   margin-right: 100px;
 }
 /*section 4 style*/
-.section-3 {
+.section-4 {
   display: flex;
   justify-content: center;
   margin-top: 70px;
 }
-.about-me-container {
+.choose-me-container {
   width: 75vw;
   margin-top: 75px;
 }
-.about-me-photo-box {
+.choose-me-photo-box {
   display: inline-block;
   border: 5px solid #ffffff;
-  border-radius: 5%;
+  border-radius: 0px 0px 0px 20px;
   box-shadow: 0 0 20px 0px #333333;
-  margin-right: 100px;
+  margin-left: 130px;
 }
-.about-me-photo-box > img {
-  border-radius: 5%;
+.choose-me-photo-box > img {
+  border-radius: 0px 0px 0px 20px;
 }
-.about-me-content-box {
+.choose-me-content-box {
   width: 450px;
   display: inline-block;
 }
-.about-me-content-box p {
+.choose-me-content-box p {
   text-align: left;
   color: #6f6f6f;
 }
-.about-me-content-box h1 {
+.choose-me-content-box h1 {
   color: #333333;
   font-size: 50px;
   text-align: left;
 }
-
-.about-me-content-box > span {
-  padding: 15px 25px 15px 25px;
-  border: 1px #fead2a solid;
-  color: #6f6f6f;
-  border-radius: 30px;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
+.choose-me-content-box h2 {
+  color: #333333;
+  text-align: left;
 }
-.about-me-content-box > span:hover {
+
+/*section 5 style*/
+.section-5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  background-color: #e9e9e9;
+}
+.work-container {
+  width: 98vw;
+  margin-top: 75px;
+}
+.work-box {
+  display: inline-block;
+  width: 250px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.work-box > h2 {
+  margin: 5px;
+  font-size: 40px;
+  color: #333333;
+}
+.work-box > p {
+  font-size: 20px;
+  color: #333333;
+}
+/*section 6 style*/
+.section-6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.clients-container {
+  width: 90vw;
+  margin-top: 75px;
+}
+.clients-box-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+.clients-box {
+  width: 350px;
+  padding: 10px;
+  margin: 25px;
+  border: 1px #fff;
+  box-shadow: 0 0 20px 0px #cecece;
+  background-color: #f7f7f7;
+  border-radius: 7px;
+}
+.clients-box h1 {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.clients-box > img {
+  width: 75px;
+  height: 95px;
+  text-align: left;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+.clients-box > p {
+  color: #333333;
+  text-align: left;
+}
+
+/*footer style*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  background-color: #e9e9e9;
+  margin-top: 75px;
+}
+.footer-container {
+  width: 60vw;
+  padding: 50px 0 50px 0;
+}
+.back-top a {
+  text-align: right;
+  padding: 15px;
+  border: 1px #fead2a solid;
+  border-radius: 60px;
+  position: absolute;
+  right: 50px;
+  top: 4100px;
+}
+.back-top a i {
+  color: #6f6f6f;
+}
+.back-top a:hover {
   color: #fff;
   background-color: #fead2a;
+  cursor: pointer;
 }
-.fs {
-  margin-right: 100px;
+
+.back-top a:hover i {
+  color: #fff;
 }
